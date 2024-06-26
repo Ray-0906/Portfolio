@@ -21,7 +21,7 @@ const Approach = () => {
             containerClassName="bg-emerald-900"
           />
         </Card>
-        <Card title="Nisha is Munni" icon={<AceternityIcon order="Phase 2" />} description="We'll collaborate to map out your website's goals, taget audience, and key functionlities. We'll discuss things like site structure, navigation, and content requirements.">
+        <Card title="Design & Development" icon={<AceternityIcon order="Phase 2" />} description="We'll bring your vision to life with a cohesive visual design that reflects your brand. This phase includes creating wireframes and mockups to visualize the layout and look of your site. We'll develop your portfolio using modern web technologies, ensuring it is responsive and accessible across all devices. Clear, consistent navigation and branding will enhance user experience">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-black"
@@ -34,7 +34,7 @@ const Approach = () => {
           {/* Radial gradient for the cute fade */}
          
         </Card>
-        <Card title="Munni is Aditi" icon={<AceternityIcon order="Phase"/>} description="We'll collaborate to map out your website's goals, taget audience, and key functionlities. We'll discuss things like site structure, navigation, and content requirements.">
+        <Card title="Testing & Launch" icon={<AceternityIcon order="Phase"/>} description="We'll rigorously test your website to ensure all functionalities work flawlessly and the site looks great on all browsers and devices. Performance optimization and basic SEO will be implemented for a fast and discoverable site. Finally, we'll deploy your portfolio to a hosting platform and set up analytics to monitor its performance, ensuring your site remains up-to-date and effective.">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"
@@ -88,7 +88,7 @@ const Card = ({
         <h2 className="dark:text-white opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 text-center text-3xl">
           {title}
         </h2>
-        <h2 className="text-sm dark:text-white opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200" style={{color:"#e4ecff"}}>
+        <h2 className="text-sm dark:text-white opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 text-center" style={{color:"#e4ecff"}}>
           {description}
         </h2>
         

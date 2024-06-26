@@ -83,7 +83,36 @@
     @apply font-bold text-4xl md:text-5xl text-center;
   }
 
+  .h2 {
+    @apply text-4xl font-bold;
+  }
+
+  .h3 {
+    @apply text-3xl font-bold;
+  }
+
+  .h4 {
+    @apply text-[22px] font-semibold;
+  }
+  .f13 {
+    font-size: 13px;
+  }
+
+  .section-title {
+    @apply text-4xl font-bold relative w-max flex items-center justify-between gap-x-3 before:dark:bg-dots_dark before:bg-no-repeat before:bg-center before:w-[24px] before:h-[24px];
+  }
+
   .black-gradient {
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
+  }
+  
+  .no-visible-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+  }
+   
+  .no-visible-scrollbar::-webkit-scrollbar {
+    display: none;
   }
 }

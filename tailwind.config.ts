@@ -160,6 +160,10 @@ const config = {
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
+      backgroundImage: {
+        dots_dark: "url(/dots-dark.svg)",
+        about_shape_dark: "url(/about/shape-2-dark.svg)",
+      }
     },
   },
   plugins: [
