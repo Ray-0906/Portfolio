@@ -34,7 +34,7 @@ const Approach = () => {
           {/* Radial gradient for the cute fade */}
          
         </Card>
-        <Card title="Testing & Launch" icon={<AceternityIcon order="Phase"/>} description="We'll rigorously test your website to ensure all functionalities work flawlessly and the site looks great on all browsers and devices. Performance optimization and basic SEO will be implemented for a fast and discoverable site. Finally, we'll deploy your portfolio to a hosting platform and set up analytics to monitor its performance, ensuring your site remains up-to-date and effective.">
+        <Card title="Testing & Launch" icon={<AceternityIcon order="Phase 3"/>} description="We'll rigorously test your website to ensure all functionalities work flawlessly and the site looks great on all browsers and devices. Performance optimization and basic SEO will be implemented for a fast and discoverable site. Finally, we'll deploy your portfolio to a hosting platform and set up analytics to monitor its performance, ensuring your site remains up-to-date and effective.">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"

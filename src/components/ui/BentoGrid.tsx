@@ -1,7 +1,6 @@
 'use client'
 
 import { useState } from "react";
-import { IoCopyOutline } from "react-icons/io5";
 
 // Also install this npm i --save-dev @types/react-lottie
 import Lottie from "react-lottie";
@@ -14,6 +13,7 @@ import GridGlobe from "./GridGlobe";
 
 import animationData from "../../Data/confetti.json";
 import MagicButton from "./MagicButton";
+import { BiDownload } from "react-icons/bi";
 
 export const BentoGrid = ({
   className,
@@ -70,9 +70,25 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "kunal34255@gmail.com";
-    navigator.clipboard.writeText(text);
     setCopied(true);
+
+    // Create a link element
+    const link = document.createElement("a");
+
+    // Set the link's href to the resume PDF file in the public folder
+    link.href = "/resume.pdf";
+
+    // Set the download attribute to trigger the download
+    link.download = "resume.pdf";
+
+    // Append the link to the document body
+    document.body.appendChild(link);
+
+    // Programmatically click the link to trigger the download
+    link.click();
+
+    // Remove the link from the document
+    document.body.removeChild(link);
   };
 
   return (
@@ -187,8 +203,8 @@ export const BentoGridItem = ({
               </div>
 
               <MagicButton
-                title={copied ? "Email is Copied!" : "Copy my email address"}
-                icon={<IoCopyOutline />}
+                title={copied ? "Download Resume" : "Download Resume"}
+                icon={<BiDownload />}
                 position="left"
                 handleClick={handleCopy}
                 otherClasses="!bg-[#161A31]"

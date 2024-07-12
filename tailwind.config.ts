@@ -21,9 +21,7 @@ const config = {
     container: {
       center: true,
       padding: "2rem",
-      screens: {
-        "2xl": "1400px",
-      },
+
     },
     extend: {
       colors: {
@@ -163,7 +161,18 @@ const config = {
       backgroundImage: {
         dots_dark: "url(/dots-dark.svg)",
         about_shape_dark: "url(/about/shape-2-dark.svg)",
-      }
+      },
+      screens: {
+        "2xl": "1400px",
+        "1200px": "1200px",
+        "1000px": "1000px",
+        "1100px": "1100px",
+        "1300px": "1300px",
+        "1500px": "1500px",
+        "800px": "800px",
+        "400px": "400px",
+        "300px": "300px",
+      },
     },
   },
   plugins: [
