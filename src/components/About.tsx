@@ -1,6 +1,6 @@
 import Logo from "./logo.png";
 import Image from "next/image";
-import { Tabs } from "@/components/ui/Tabs";
+import { Tabs } from "../components/ui/Tabs";
 import DevImg from "./ui/DevImg";
 
 import {
@@ -12,7 +12,7 @@ import {
   RiCalendar2Fill,
   RiBriefcase2Fill,
 } from "react-icons/ri";
-import { qualificationData, skillData } from "@/Data";
+import { qualificationData, skillData } from "../Data";
 
 const infoData = [
   {
@@ -174,6 +174,7 @@ const Skill = () => {
   const getData = (arr: any, title: string) => {
     return arr.find((item: any) => item.title === title);
   };
+  
   return (
     <div className="text-left">
       <h3 className="md:h3 lg:h3 text-lg mb-8">What I Use Everyday</h3>

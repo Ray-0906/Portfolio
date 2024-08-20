@@ -207,7 +207,7 @@ export const infoData = [
 
 export const skillData = [
   {
-    title: "skills ",
+    title: "skills",
     data: [
       {
         name: "HTML, CSS ",
