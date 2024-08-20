@@ -207,10 +207,10 @@ export const infoData = [
 
 export const skillData = [
   {
-    title: "skills",
+    title: "skills ",
     data: [
       {
-        name: "HTML, CSS",
+        name: "HTML, CSS ",
       },
       {
         name: "JAVA SCRIPT, REACT JS, NEXT JS",
