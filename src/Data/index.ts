@@ -2,7 +2,6 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -73,65 +72,69 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "React Social Media Ui Clone",
-    des: "Experience a seamless social media interface with my React.js clone, designed for speed, responsiveness, and user engagement.",
+    title: "Anonomancely : Reveal your thoughts",
+    des: "Anonomancely is an anonymous platform for users to share experiences, built with the MERN stack. It provides a safe space for honest communication, allowing people to connect without revealing their identities.",
     img: "/project1/one.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/KUNAL01011/React_UI_SocialMedia",
+    iconLists: ["/re.svg", "/tail.svg", "/js.png", "/md.png", "/fm.png"],
+    link: "https://web-media.onrender.com/",
+    redirectionMsg: 'Check live Site',
   },
   {
     id: 2,
-    title: "React Hotstar Ui Clone",
-    des: "Stream your favorite shows with my Hotstar clone built in React.js, offering seamless navigation, video playback, and user experience.",
+    title: "Random Chat",
+    des: "Random Chat is a real-time messaging app built with the MERN stack and Socket.io. It connects users randomly for instant conversations, offering a simple and responsive chat experience across devices.",
     img: "/project2/two.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/KUNAL01011/React_UI_Hotstar",
+    iconLists: ["/re.svg", "/tail.svg", "/js.png", "/md.png", "/fm.png"],
+    link: "https://web-chat-94zg.onrender.com/",
+    redirectionMsg: 'Check live Site',
   },
   {
     id: 3,
     title: "LinkedIn Ui Clone",
     des: "Connect with professionals using my LinkedIn clone built with React.js, offering networking, job search, and profile management.",
     img: "/project3/three.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/js.png", "/md.png", "/fm.png"],
     link: "https://github.com/KUNAL01011/HTML_CSS_Projects/tree/main/06Project_LinkedinUI_clone",
+    redirectionMsg: 'Check Repo link',
   },
   {
     id: 4,
     title: "Tesla Ui Clone",
     des: "Explore cutting-edge design with my Tesla website clone using React.js, featuring sleek interfaces, car models, and innovation.",
     img: "/project4/four.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/js.png", "/md.png", "/fm.png"],
     link: "https://github.com/KUNAL01011/React_UI_Tesla_clone",
+    redirectionMsg: 'Check Repo link',
   },
 ];
 
-export const testimonials =
-  [
-    {
-      quote: "Working with Kunal was an exceptional experience. His deep understanding of web development and his ability to translate our ideas into a functional, beautiful website exceeded our expectations. Kunal's commitment to quality and attention to detail are unparalleled. For anyone looking to enhance their online presence, Kunal is the go-to professional.",
-      name: "Emily Thompson",
-      title: "CEO of Creative Minds Studio",
-      img: "https://hamariweb.com/profiles/images/profile/5227-961-13475.jpg"
-    },
-    {
-      quote: "Kunal Kumar is a web developer who truly understands the needs of his clients. His expertise in web technologies and his innovative approach made a significant impact on our project. Kunal's ability to deliver on time while maintaining high standards of work is impressive. I highly recommend Kunal for any web development needs.",
-      name: "John Stevens",
-      title: "CTO of TechWave Solutions",
-      img: "https://assets.capitalfm.com/2020/28/katherine-langford-1594918637-view-0.jpg"
-    },
-    {
-      quote: "Kunal's work ethic and proficiency in web development are outstanding. He consistently demonstrated a high level of professionalism and technical skill, transforming our vision into a stunning website. Kunal's dedication to achieving the best possible outcomes for his clients is truly commendable. Partnering with him was a decision we’re glad we made.",
-      name: "Sophia Martinez",
-      title: "Marketing Director at Horizon Media",
-      img: "https://www.gethucinema.com/tmdb/17A6a2ZJQWXbMTPfhpTNBQhtDv7.jpg"
-    },
-    {
-      quote: "Kunal Kumar is a web developer who goes above and beyond to ensure his clients' satisfaction. His strategic thinking, combined with his technical prowess, resulted in a website that not only looks great but also performs exceptionally well. Kunal’s ability to communicate effectively and deliver on his promises makes him a valuable asset for any web development project.",
-      name: "David Lee",
-      title: "Founder of StartupWorks",
-      img: "https://i.pinimg.com/originals/42/5a/23/425a233237f5c027a54850a17843d2d5.jpg"
-    }
-  ]
+// export const testimonials =
+//   [
+//     {
+//       quote: "Working with Kunal was an exceptional experience. His deep understanding of web development and his ability to translate our ideas into a functional, beautiful website exceeded our expectations. Kunal's commitment to quality and attention to detail are unparalleled. For anyone looking to enhance their online presence, Kunal is the go-to professional.",
+//       name: "Emily Thompson",
+//       title: "CEO of Creative Minds Studio",
+//       img: "https://hamariweb.com/profiles/images/profile/5227-961-13475.jpg"
+//     },
+//     {
+//       quote: "Kunal Kumar is a web developer who truly understands the needs of his clients. His expertise in web technologies and his innovative approach made a significant impact on our project. Kunal's ability to deliver on time while maintaining high standards of work is impressive. I highly recommend Kunal for any web development needs.",
+//       name: "John Stevens",
+//       title: "CTO of TechWave Solutions",
+//       img: "https://assets.capitalfm.com/2020/28/katherine-langford-1594918637-view-0.jpg"
+//     },
+//     {
+//       quote: "Kunal's work ethic and proficiency in web development are outstanding. He consistently demonstrated a high level of professionalism and technical skill, transforming our vision into a stunning website. Kunal's dedication to achieving the best possible outcomes for his clients is truly commendable. Partnering with him was a decision we’re glad we made.",
+//       name: "Sophia Martinez",
+//       title: "Marketing Director at Horizon Media",
+//       img: "https://www.gethucinema.com/tmdb/17A6a2ZJQWXbMTPfhpTNBQhtDv7.jpg"
+//     },
+//     {
+//       quote: "Kunal Kumar is a web developer who goes above and beyond to ensure his clients' satisfaction. His strategic thinking, combined with his technical prowess, resulted in a website that not only looks great but also performs exceptionally well. Kunal’s ability to communicate effectively and deliver on his promises makes him a valuable asset for any web development project.",
+//       name: "David Lee",
+//       title: "Founder of StartupWorks",
+//       img: "https://i.pinimg.com/originals/42/5a/23/425a233237f5c027a54850a17843d2d5.jpg"
+//     }
+//   ]
 
 export const socialMedia = [
   {
@@ -233,7 +236,7 @@ export const skillData = [
         imgPath: "/about/vscode.svg",
       },
       {
-        imgPath: "/about/wordpress.svg",
+        imgPath: "/about/github.png",
       },
     ],
   },
