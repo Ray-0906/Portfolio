@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I create designs that work as great as they look. Let’s build something awesome. ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Flexible across time zones—here when you need me.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "I love turning ideas into reality. Got a vision? Let’s build something amazing together.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a LMS platform",
+    title: "Currently building a Life Tracking Gamification platform",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,40 +72,22 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Anonomancely : Reveal your thoughts",
-    des: "Anonomancely is an anonymous platform for users to share experiences, built with the MERN stack. It provides a safe space for honest communication, allowing people to connect without revealing their identities.",
+    title: "BlogSite : a Blog Website",
+    des: "BlogSite is a dynamic and responsive blog website that enables users to create, manage, and share posts effortlessly. It features a user-friendly interface, rich text editing, and secure authentication for personalized experiences.",
     img: "/project1/one.png",
     iconLists: ["/re.svg", "/tail.svg", "/js.png", "/md.png", "/fm.png"],
-    link: "https://web-media.onrender.com/",
+    link: "https://raysblog-site.vercel.app/",
     redirectionMsg: 'Check live Site',
   },
   {
     id: 2,
-    title: "Random Chat",
-    des: "Random Chat is a real-time messaging app built with the MERN stack and Socket.io. It connects users randomly for instant conversations, offering a simple and responsive chat experience across devices.",
+    title: "WebPen : Web Highlighter",
+    des: "WebPen is a browser extension that allows users to highlight text on any webpage and automatically retrieves the highlights on revisiting. It features persistent storage, user accounts for cross-device sync, and a dashboard to manage and search highlights.",
     img: "/project2/two.png",
-    iconLists: ["/re.svg", "/tail.svg", "/js.png", "/md.png", "/fm.png"],
-    link: "https://web-chat-94zg.onrender.com/",
-    redirectionMsg: 'Check live Site',
-  },
-  {
-    id: 3,
-    title: "LinkedIn Ui Clone",
-    des: "Connect with professionals using my LinkedIn clone built with React.js, offering networking, job search, and profile management.",
-    img: "/project3/three.png",
-    iconLists: ["/re.svg", "/tail.svg", "/js.png", "/md.png", "/fm.png"],
-    link: "https://github.com/KUNAL01011/HTML_CSS_Projects/tree/main/06Project_LinkedinUI_clone",
-    redirectionMsg: 'Check Repo link',
-  },
-  {
-    id: 4,
-    title: "Tesla Ui Clone",
-    des: "Explore cutting-edge design with my Tesla website clone using React.js, featuring sleek interfaces, car models, and innovation.",
-    img: "/project4/four.png",
-    iconLists: ["/re.svg", "/tail.svg", "/js.png", "/md.png", "/fm.png"],
-    link: "https://github.com/KUNAL01011/React_UI_Tesla_clone",
-    redirectionMsg: 'Check Repo link',
-  },
+    iconLists: ["/re.svg", "/js.png", "/md.png", "/fm.png"],
+    link: "https://github.com/Ray-0906/Smart-Web-Notetaking",
+    redirectionMsg: 'Check repo',
+  }
 ];
 
 // export const testimonials =
@@ -136,21 +118,21 @@ export const projects = [
 //     }
 //   ]
 
-export const socialMedia = [
+export const socialMedia = [ 
   {
     id: 1,
     img: "/git.svg",
-    url: "https://github.com/KUNAL01011"
+    url: "https://github.com/RAY-0906"
   },
   {
     id: 2,
     img: "/twit.svg",
-    url: "https://twitter.com/Kunal_098"
+    url: "https://twitter.com/RAY-0906"
   },
   {
     id: 3,
     img: "/link.svg",
-    url: "https://www.linkedin.com/in/kunal003/"
+    url: "https://www.linkedin.com/in/asraful-u3716"
   },
 ];
 
@@ -160,19 +142,19 @@ export const qualificationData = [
     title: "education",
     data: [
       {
-        university: "Shri Savitri Inter College",
+        university: "Kalatoli High School",
         qualification: "High School",
-        years: "2018-2019",
+        years: "2014-2020",
       },
       {
-        university: "Shri Savitri Inter College",
+        university: "Abdul Hasib HS School",
         qualification: "Intermediat",
-        years: "2020-2021",
+        years: "2020-2022",
       },
       {
-        university: "Bareilly College, Bareilly",
-        qualification: "Bachelor of Computer Application",
-        years: "2022-2025",
+        university: "NIT Jamshedpur",
+        qualification: "B.tech in ECE",
+        years: "2023-2027",
       },
     ],
   },
@@ -181,23 +163,23 @@ export const qualificationData = [
 export const infoData = [
   {
     icon: 'RiUser2Fill size={20}',
-    text: "Kunal Kumar",
+    text: "Asraful Hoque",
   },
   {
     icon: 'RiPhoneFill size={20}',
-    text: "8126218947",
+    text: "9864865585",
   },
   {
     icon: 'RiMailFill size={20} ',
-    text: "kunal34255@gmail.com",
+    text: "astra3716@gmail.com",
   },
   {
     icon: "RiCalendar2Fill size={20}",
-    text: "Born on 16 Aug, 2003",
+    text: "Born on xx June, 2003",
   },
   {
     icon: "RiGraduationCapFill size={20}",
-    text: "Bachelors in computer Application",
+    text: "B.Tech in ECE",
   },
   {
     icon: 'RiHome2Fill size={20}',
@@ -216,7 +198,7 @@ export const skillData = [
         name: "JAVA SCRIPT, REACT JS, NEXT JS",
       },
       {
-        name: "C++, C, DATA STUCTURE AND ALGO",
+        name: "JAVA, C++, C, DATA STUCTURE AND ALGO",
       },
       {
         name: "NODE JS, EXPRESS JS, MONGODB,",

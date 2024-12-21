@@ -17,17 +17,17 @@ import { qualificationData, skillData } from "../Data";
 const infoData = [
   {
     icon: <RiUser2Fill size={20} />,
-    text: "Kunal Kumar",
+    text: "Asraful Hoque",
   },
 
   {
     icon: <RiMailFill size={20} />,
-    text: "kunal34255@gmail.com",
+    text: "astra3716@gmail.com",
   },
 
   {
     icon: <RiGraduationCapFill size={20} />,
-    text: "Bachelors in computer Application",
+    text: "B.Tech in ECE",
   },
   {
     icon: <RiHome2Fill size={20} />,
@@ -96,10 +96,10 @@ const Personal = () => {
   return (
     <div className="text-center 1200px:text-left ">
       <h3 className="md:h3 lg:h3 mb-4 text-lg">
-      Crafting Intuitive Websites with Cutting-Edge Technology
+      Shaping Engaging Websites with State-of-the-Art Solutions.
       </h3>
       <p className="subtitle max-w-xl mx-auto xl:mx-0 mb-4 text-sm">
-      Hi, I&apos;m Kunal, a MERN Stack Developer, delivering dynamic and engaging user experiences.
+      Hi, I&apos;m Asraful, A problem-solver and <strong>MERN Stack Developer</strong> delivering intuitive and impactful web experiences.
       </p>
       {/* icons */}
       <div className="grid 2xl:grid-cols-1 mb-12">

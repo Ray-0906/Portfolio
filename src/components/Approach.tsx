@@ -14,14 +14,14 @@ const Approach = () => {
         <Card
           title="Planning & strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          description="We'll collaborate to map out your website's goals, taget audience, and key functionlities. We'll discuss things like site structure, navigation, and content requirements."
+          description="I’ll work with you to define your website's goals, target audience, and key functionalities. Together, we’ll discuss site structure, navigation, and content requirements to ensure everything is aligned with your vision."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
-        <Card title="Design & Development" icon={<AceternityIcon order="Phase 2" />} description="We'll bring your vision to life with a cohesive visual design that reflects your brand. This phase includes creating wireframes and mockups to visualize the layout and look of your site. We'll develop your portfolio using modern web technologies, ensuring it is responsive and accessible across all devices. Clear, consistent navigation and branding will enhance user experience">
+        <Card title="Design & Development" icon={<AceternityIcon order="Phase 2" />} description="I’ll bring your vision to life with a cohesive visual design that reflects your brand. This phase involves creating wireframes and mockups to visualize your site’s layout and appearance. I’ll develop your portfolio using modern web technologies, ensuring it’s responsive and accessible on all devices. Clear, consistent navigation and branding will be incorporated to enhance the user experience.">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-black"
@@ -34,7 +34,7 @@ const Approach = () => {
           {/* Radial gradient for the cute fade */}
          
         </Card>
-        <Card title="Testing & Launch" icon={<AceternityIcon order="Phase 3"/>} description="We'll rigorously test your website to ensure all functionalities work flawlessly and the site looks great on all browsers and devices. Performance optimization and basic SEO will be implemented for a fast and discoverable site. Finally, we'll deploy your portfolio to a hosting platform and set up analytics to monitor its performance, ensuring your site remains up-to-date and effective.">
+        <Card title="Debugging & Launch" icon={<AceternityIcon order="Phase 3"/>} description="I will thoroughly test your website to ensure all features work seamlessly and that it looks great on all browsers and devices. I'll optimize its performance and implement basic SEO to make it fast and easily discoverable. Finally, I’ll deploy your portfolio to a hosting platform and set up analytics to track its performance, ensuring it stays up-to-date and effective.">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"
